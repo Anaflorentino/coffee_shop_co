@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Styles.css -->
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Coffee Shop & Co.</title>
+
+</head>
+
+<body>
+    <!-- HEADER/NAVBAR -->
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Coffee Shop & Co.</h1>
+            <!-- *toggler -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-links">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- *nav-links -->
+            <nav class="navbar-collapse collapse justify-content-end" id="nav-links">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link rounded-0">
+                            <i class="bi bi-bi bi-cup-hot me-1"></i>
+                            Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#events" class="nav-link rounded-0">
+                            <i class="bi bi-bookmark-dash me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu-items" class="nav-link rounded-0">
+                            <i class="bi bi-clipboard2 me-1"></i>
+                            Menu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link rounded-0">
+                            <i class="bi bi-send me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div data-bs-spy="scroll" data-bs-target="#header" data-bs-smooth-scroll="true" data-offset="50">
+        <!-- CAROUSEL SECTION -->
+        <section id="about">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <!-- *slide #1 -->
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./img/slides/2.png" alt="Foto do interior da Coffee Shop & Co.">
+                    </div>
+                    <!-- *slide #2 -->
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/slides/3.png" alt="Foto do interior da Coffee Shop & Co.">
+                    </div>
+                    <!-- *slide #1 -->
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/slides/4.png" alt="Foto do interior da Coffee Shop & Co.">
+                    </div>
+                </div>
+                <!-- *control-prev button -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <!-- *prev-icon -->
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <!-- control-next button -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <!-- *next-icon -->
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <!-- *carousel indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <!-- ABOUT SECTION -->
+            <!-- *image -->
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./img/about/daan-evers-tKN1WXrzQ3s-unsplash.jpg" class="d-block w-100"
+                                alt="Foto de um barista preparando café">
+                        </div>
+                        <!-- *text -->
+                        <div id="about" class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Coffee Shop & Co. | <span class="text-colored"> Descubra um novo
+                                    conceito</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempora ipsam officia
+                                laborum totam velit optio ut, vel natus pariatur voluptatem sit qui tenetur et. Repellat
+                                consequatur odit deleniti eveniet.</p>
+                            <h2 class="section-title">Conheça <span class="text-colored">nossos espaços</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam commodi, minima rem
+                                atque eligendi quam ex iste cum numquam, laborum labore architecto nesciunt ut libero
+                                aperiam, hic tenetur consequatur itaque!</p>
+                            <ul>
+                                <li>Unidade I</li>
+                                <li>Unidade II</li>
+                                <li>Unidade II</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EVENTS SECTION -->
+        <section id="events" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Mais do que um café, <br><span class="text-colored">uma
+                        experiência.</span></h2>
+                </div>
+                <div class="row">
+                    <!-- #1st column -->
+                    <div class="col-md-4">
+                        <!-- card #1 -->
+                        <img src="./img/about/daan-evers-tKN1WXrzQ3s-unsplash.jpg" alt="" class="d-block w-100 pt-5 pb-3 ">
+                        <h3 class="fs-5 mb-2">Espaço intimista e pet friendly</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quia incidunt veritatis ipsa
+                            blanditiis deseruntfduj
+                            magni possimus, consequuntur illum.</p>
+                    </div>
+                    <!-- #2nd column -->
+                    <div class="col-md-4">
+                        <!-- card #2 -->
+                        <img src="./img/about/kris-atomic-3b2tADGAWnU-unsplash.jpg" alt="" class="d-block w-100 pt-5 pb-3 ">
+                        <h3 class="fs-5 mb-2">Reservado e aconhegante</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quia incidunt veritatis ipsa
+                            blanditiis deseruntfduj
+                            magni possimus, consequuntur illum.</p>
+                    </div>
+                    <!-- #3rd column -->
+                    <div class="col-md-4">
+                        <!-- card #3 -->
+                        <img src="./img/about/joshua-rodriguez-f7zm5TDOi4g-unsplash.jpg" alt="" class="d-block w-100 pt-5 pb-3 ">
+                        <h3 class="fs-5 mb-2">Excelência em cada preparo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quia incidunt veritatis ipsa
+                            blanditiis deseruntfduj
+                            magni possimus, consequuntur illum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU SECTION -->
+        <section id="menu-items" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-5">Menu</h2>
+                </div>
+                <!-- *sidebar navbar -->
+                <!-- *aside/left-column -->
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-menu">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#coffee"
+                                class="fw-bold text-start text-colored nav-link active">Coffee</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tea"
+                                class="fw-bold text-start text-colored nav-link">Tea</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#brunch"
+                                class="fw-bold text-start text-colored nav-link">Brunch</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#desserts"
+                                class="fw-bold text-start text-colored nav-link">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <!-- *aside-content (cardápio) -->
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <!-- #Coffee -->
+                            <div class="tab-pane active" id="coffee">
+                                <div class="row">
+                                    <!-- Item #1 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="./img/menu/coffee/Rectangle 1.png" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Classic</h5>
+                                        <p>O clássico café de coador extraído a 94°C</p>
+                                    </div>
+                                    <!-- Item #2 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="./img/menu/coffee/clack-coffee.png" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Brazilian Coffee</h5>
+                                        <p>Blend especial mineiro extra-forte</p>
+                                    </div>
+                                    <!-- Item #3 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="./img/menu/coffee/Rectangle 6 (1).png" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Vanilla Cream</h5>
+                                        <p>Leite cremoso de baunilha com espuma de café</p>
+                                    </div>
+                                    <!-- Item #4 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="./img/menu/coffee/Rectangle 8.png" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Alpinist</h5>
+                                        <p>Café gelado, licor e um fio de leite</p>
+                                    </div>
+                                    <!-- Item #5 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="./img/menu/coffee/cold-brew.png" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Cold Brew</h5>
+                                        <p>Café extraído a frio durante 18 horas</p>
+                                    </div>
+                                    <!-- Item #6 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="./img/menu/coffee/6.jpg" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Italian Coffee</h5>
+                                        <p>Blend italiano com um fio de rum</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- #Tea -->
+                            <div class="tab-pane" id="tea">
+                                <div class="row">
+                                    <!-- Item #1 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="img/menu/tea/tea.png" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Iced Tea</h5>
+                                        <p>Earl Grey gelado</p>
+                                    </div>
+                                    <!-- Item #3 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="img/menu/tea/3.jpg" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Chai Latte</h5>
+                                        <p>Chá preto com leite</p>
+                                    </div>
+                                    <!-- Item #4 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="img/menu/tea/miti-DFtvglCPWjY-unsplash.jpg" alt="">
+                                        </div>
+                                        <h5 class="mb-0">British</h5>
+                                        <p>Chá especial aromatizado com especiarias</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- #Brunch -->
+                            <div class="tab-pane" id="brunch">
+                                <div class="row">
+                                    <!-- Item #1 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="img/menu/brunch/1.jpg" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Morning Toast</h5>
+                                        <p>Pão na chapa com manteiga e ovo servido sobre aspargos salteados com bacon</p>
+                                    </div>
+                                    <!-- Item #2 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="img/menu/brunch/salmon.png" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Salmon Toasts</h5>
+                                        <p>Torradas com pate suave de cream cheese e lascas de salmão marinado em azeite, limão e ervas finas</p>
+                                    </div>
+                                    <!-- Item #3 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="img/menu/brunch/3.jpg" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Chief Egg</h5>
+                                        <p>Pão multigrãos de fermentação natural com frango crispy, abobrinha e ovo pochê</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- #Desserts -->
+                            <div class="tab-pane" id="desserts">
+                                <div class="row">
+                                    <!-- Item #1 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="img/menu/desserts/blueberry.png" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Blueberry Toast</h5>
+                                        <p>Torradas de blueberry com mel e banana</p>
+                                    </div>
+                                    <!-- Item #2 -->
+                                    <div class="col-md-3">
+                                        <div class="ratio ratio-4x3 mb-2">
+                                            <img class="d-block w-100" src="img/menu/desserts/yogurt.png" alt="">
+                                        </div>
+                                        <h5 class="mb-0">Berrie Yogurt</h5>
+                                        <p>Iogurte caseiro batido com frutas vermelhas e mel</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale Conosco</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <!-- #Form -->
+                    <form id="registration_form">
+                        <div class="mb-4">
+                            <label for="name" class="form-label fw-bold">Seu nome</label>
+                            <input type="text" id="name" class="form-control" name="name">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="form-label fw-bold">Seu E-mail</label>
+                            <input type="email" id="email" class="form-control" name="email">
+                        </div>
+                        <div class="mb-4">
+                            <label for="tel" class="form-label fw-bold">Seu telefone</label>
+                            <input type="tel" id="phone" class="form-control" name="phone">
+                            <div class="mb-4">
+                                <label for="msg" class="form-label fw-bold mt-4">Sua mensagem</label>
+                                <textarea id="txtarea" class="form-control" name="txtarea"></textarea>
+                            </div>
+                            <button type="submit" id="submit-btn" class="btn fw-bold">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- #Social Media -->
+                <div class="col-md-5 mt-5">
+                    <div class="row">
+                        <h3 class="section-title  fs-4 text-colored">
+                            <i class="bi bi-heart-fill"></i>
+                            Redes Sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- #Address -->
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Endereços
+                        </h3>
+                        <p>Rua Teste Exemplo, Nº137, Bootstrap - São Paulo, SP</p>
+                        <p>Rua Teste Exemplo, Nº137, Bootstrap - São Paulo, SP</p>
+                        <p>Rua Teste Exemplo, Nº137, Bootstrap - São Paulo, SP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Coffee Shop & Co.</h5>
+                    <p>Rua Teste Exemplo, Nº137, Bootstrap - São Paulo, SP.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#events">Eventos</a></li>
+                        <li><a href="#menu-items">Menu</a></li>
+                        <li><a href="#contact">Fale Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Redes Sociais</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="bi bi-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i> Twitter</a></li>
+                        <li><a href="#"><i class="bi bi-whatsapp"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <hr class="light">
+                    <p>&copy; 2024, Coffee Shop & Co. | Criado por Ana Florentino.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+    <!-----__--__--END --__--__-------->
+    </div>
+
+    
+    
+   
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <!-- JQuery Core -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- JQuery Masks -->
+    <script src="js/jquery.mask.min.js"></script>
+    <!-- JQuery Validation -->
+    <script src="js/jquery.validate.min.js"></script>
+    <!-- JQuery Messages pt_BR -->
+    <script src="js/messages_pt_BR.min.js"></script>
+    <!-- JS -->
+    <script src="./js/scripts.js"></script>
+
+    
+</body>
+
+</html>

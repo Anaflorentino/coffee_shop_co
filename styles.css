@@ -1,0 +1,161 @@
+/* BODY */
+body {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* LOGO */
+.navbar-brand {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(242, 242, 242);
+}
+
+/* NAVBAR/HEADER */
+.navbar {
+    background-color: rgb(41, 39, 37);
+}
+
+#header .nav .nav-link.active {
+    background-color:  rgb(96, 141, 60);
+    color: rgb(242, 242, 242);
+    border-radius: 0;
+}
+
+#header .nav .nav-link:hover {
+    color: rgb(240, 203, 203);
+}
+
+/* NAV LINK */
+#menu-items .nav-link {
+    background-color:  rgb(242, 242, 242);
+    color: rgb(22, 22, 22);
+    border-radius: 0;
+}
+
+
+/* CARDAPIO */
+#menu-items .nav-link.active,
+#contact button {
+    background-color:  rgb(96, 141, 60);
+    color: rgb(242, 242, 242);
+    border-radius: 0;
+}
+
+#contact button:hover {
+    background-color:  rgb(201, 136, 37);
+}
+
+#header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-menu .nav-link.active:hover {
+    color: rgb(242, 242, 242);
+}
+
+.error {
+    color: rgb(179, 69, 33);
+    font-size: small;
+    font-weight: 600;
+
+}
+
+/* TOGGLER */
+.navbar-toggler {
+    background-color: rgb(242, 242, 242);
+}
+
+/* TITLES */
+.section-title {
+    font-family: "Oswald", sans-serif;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-weight: 550;
+}
+
+/* PARAGRAPHS */
+p {
+    color: rgb(69, 69, 69);
+}
+
+/* SPAN */
+.text-colored {
+    color:  rgb(96, 141, 60);
+}
+
+/* ABOUT */
+#about, #menu-items {
+    background-color: rgb(245, 232, 226);
+}
+
+/* CONTACT */
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+img {
+    object-fit: cover;
+    object-position: center;
+
+}
+
+#txtarea {
+    resize: none;
+}
+
+/* FOOTER */
+.footer {
+    background-color: rgb(41, 39, 37);
+    color: rgb(242, 242, 242);
+    padding: 64px 0;
+}
+
+.footer h5 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.footer p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: rgba(242, 242, 242, 0.679);
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.footer ul li a {
+    color: rgba(242, 242, 242, 0.679);
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color:  rgb(96, 141, 60);
+}
+
+.footer hr.light {
+    border-top: 1px solid rgb(242, 242, 242);
+    width: 90%;
+    margin-top: 1.9rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
