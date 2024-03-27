@@ -109,6 +109,11 @@ img {
 
 }
 
+/* FORM */
+form {
+    width: 60%;
+}
+
 #txtarea {
     resize: none;
 }
